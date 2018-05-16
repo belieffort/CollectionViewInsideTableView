@@ -15,6 +15,8 @@
 		72DB058320AC660900EE670B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DB058120AC660900EE670B /* LaunchScreen.storyboard */; };
 		72DB058E20AC660900EE670B /* collectionViewInsideTableView5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DB058D20AC660900EE670B /* collectionViewInsideTableView5Tests.swift */; };
 		72DB059920AC660900EE670B /* collectionViewInsideTableView5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DB059820AC660900EE670B /* collectionViewInsideTableView5UITests.swift */; };
+		72DB05A720AC675C00EE670B /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DB05A620AC675C00EE670B /* MainTableViewCell.swift */; };
+		72DB05A920AC678300EE670B /* InsideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DB05A820AC678300EE670B /* InsideCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		72DB059420AC660900EE670B /* collectionViewInsideTableView5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionViewInsideTableView5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DB059820AC660900EE670B /* collectionViewInsideTableView5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewInsideTableView5UITests.swift; sourceTree = "<group>"; };
 		72DB059A20AC660900EE670B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DB05A620AC675C00EE670B /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		72DB05A820AC678300EE670B /* InsideCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsideCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				72DB058120AC660900EE670B /* LaunchScreen.storyboard */,
 				72DB058420AC660900EE670B /* Info.plist */,
 				72DB057C20AC660700EE670B /* collectionViewInsideTableView5.xcdatamodeld */,
+				72DB05A620AC675C00EE670B /* MainTableViewCell.swift */,
+				72DB05A820AC678300EE670B /* InsideCollectionViewCell.swift */,
 			);
 			path = collectionViewInsideTableView5;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				72DB057820AC660700EE670B /* ViewController.swift in Sources */,
 				72DB057620AC660700EE670B /* AppDelegate.swift in Sources */,
+				72DB05A920AC678300EE670B /* InsideCollectionViewCell.swift in Sources */,
+				72DB05A720AC675C00EE670B /* MainTableViewCell.swift in Sources */,
 				72DB057E20AC660700EE670B /* collectionViewInsideTableView5.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

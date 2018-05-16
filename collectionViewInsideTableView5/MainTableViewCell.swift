@@ -9,7 +9,8 @@
 import UIKit
 
 class MainTableViewCell: UITableViewCell {
-
+    @IBOutlet var clCollectionView: UICollectionView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,4 +22,18 @@ class MainTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+}
+
+extension MainTableViewCell
+{
+    func setControllerViewDataSourceDelegate
+        <D: UICollectionViewDelegate & UICollectionViewDataSource>
+        (_ dataSourceDelegate: D, forRow row: Int)
+    {
+        clCollectionView.delegate = dataSourceDelegate
+        clCollectionView.dataSource = dataSourceDelegate
+        
+        clCollectionView.reloadData()
+    }
+    
 }
